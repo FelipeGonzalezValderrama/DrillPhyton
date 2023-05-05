@@ -1,5 +1,5 @@
 nombres = ['Harry Houdini', 'Newton', 'David Blaine',
-            'Hawking', 'Messi', 'Teller', 'Einstein', 'Pele', 'Juanes']
+           'Hawking', 'Messi', 'Teller', 'Einstein', 'Pele', 'Juanes']
 
 # Separar los nombres en tres grupos: magos, científicos y otros
 magos = []
@@ -32,20 +32,12 @@ def imprimir_nombres():
     for mago in magos:
         print(mago)
         print("--------------------------")
-        
+
         print("--------------------------")
     print("Científicos:")
     print("--------------------------")
     for cientifico in cientificos:
         print(cientifico)
-        
-
-
-print("--------------------------")
-print("Otros:")
-print("--------------------------")
-for otro in otros:
-    print(otro)
 
 
 # Imprimir la lista completa de nombres antes de ser modificados
@@ -62,3 +54,9 @@ hacer_grandioso()
 # Imprimir los nombres de los magos grandiosos, los nombres de los científicos, y los restantes
 imprimir_nombres()
 print("--------------------------")
+
+print("--------------------------")
+print("Otros:")
+print("--------------------------")
+for otro in otros:
+    print(otro)
