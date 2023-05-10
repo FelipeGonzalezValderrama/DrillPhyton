@@ -1,5 +1,5 @@
 nombres = ['Harry Houdini', 'Newton', 'David Blaine',
-           'Hawking', 'Messi', 'Teller', 'Einstein', 'Pele', 'Juanes']
+        'Hawking', 'Messi', 'Teller', 'Einstein', 'Pele', 'Juanes']
 
 # Separar los nombres en tres grupos: magos, científicos y otros
 magos = []
@@ -60,3 +60,4 @@ print("Otros:")
 print("--------------------------")
 for otro in otros:
     print(otro)
+print("---------------------------")
